@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $bg-cl-darc;
+  &__logo {
+  }
+  &__site-nav {
+  }
+  &__contacts {
+  }
+}
+.logo {
+  &__image {
+  }
+}
+.site-nav {
+  display: flex;
+  &__item {
+  }
+}
+.contacts {
+  display: flex;
+  &__item {
+  }
+  &__link {
+  }
+}
