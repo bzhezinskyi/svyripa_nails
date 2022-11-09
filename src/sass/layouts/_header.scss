@@ -1,12 +1,17 @@
 .header {
-  display: flex;
-  justify-content: space-between;
   background-color: $bg-cl-darc;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
   &__logo {
   }
   &__site-nav {
+    color: white;
   }
   &__contacts {
+    color: white;
   }
 }
 .logo {
