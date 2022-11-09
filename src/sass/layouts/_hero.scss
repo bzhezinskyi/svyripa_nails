@@ -1,13 +1,25 @@
 .hero {
   &__container {
-    height: 500px;
+    height: 600px;
     background-color: $bg-cl-secondari;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('../images/gallery/bg-image1.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
     text-align: center;
+    color: $txt-cl-wite;
   }
   &__title {
     margin-top: 200px;
     display: inline-block;
+    font-size: 72px;
   }
   &__text {
+    font-size: 32px;
   }
 }
